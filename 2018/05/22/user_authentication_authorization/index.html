@@ -574,3 +574,233 @@ Token颁发方的签名，用于客户端验证Token颁发方的身份，也用�
 
 </body>
 </html>
+景:</p>
+<p>在实现微服务自身的用户认证时，也可以采用OAuth将微服务的用户认证委托给一个第三方的认证服务提供商，例如很多应用都将用户登录和微信或者QQ的OAuth服务进行了集成。</p>
+<p>第三方应用接入和微服务自身用户认证采用OAuth的目的是不同的，前者是为了将微服务中用户的私有数据访问权限授权给第三方应用，微服务在OAuth架构中是认证和资源服务器的角色；而后者的目的是集成并利用知名认证提供服务商提供的OAuth认证服务，简化繁琐的注册操作，微服务在OAuth架构中是客户端的角色。</p>
+<p>因此在我们需要区分这两种不同的场景，以免造成误解。</p>
+<h3 id="微服务之间的认证">微服务之间的认证</h3>
+<p>除了来自用户和第三方的北向流量外，微服务之间还有大量的东西向流量，这些流量可能在同一个局域网中，也可能跨越不同的数据中心,这些服务间的流量存在被第三方的嗅探和攻击的危险，因此也需要进行安全控制。</p>
+<p>通过双向SSL可以实现服务之间的相互身份认证，并通过TLS加密服务间的数据传输。需要为每个服务生成一个证书，服务之间通过彼此的证书进行身份验证。在微服务运行环境中，可能存在大量的微服务实例，并且微服务实例经常会动态变化，例如随着水平扩展增加服务实例。在这种情况下，为每个服务创建并分发证书变得非常困难。我们可以通过创建一个私有的证书中心(Internal PKI/CA)来为各个微服务提供证书管理如颁发、撤销、更新等。</p>
+<h2 id="参考">参考</h2>
+<ul>
+<li><a href="https://initiate.andela.com/how-we-solved-authentication-and-authorization-in-our-microservice-architecture-994539d1b6e6">How We Solved Authentication and Authorization in Our Microservice Architecture</a></li>
+<li><a href="https://blog.cloudflare.com/how-to-build-your-own-public-key-infrastructure/">How to build your own public key infrastructure</a></li>
+<li><a href="https://www.oauth.com/oauth2-servers/access-tokens/authorization-code-request/">OAuth 2.0 Authorization Code Request</a></li>
+<li><a href="https://www.jianshu.com/p/c65fa3af1c01">PKI/CA工作原理及架构</a></li>
+<li><a href="http://www.primeton.com/read.php?id=2390">深入聊聊微服务架构的身份认证问题</a></li>
+</ul>
+
+                
+
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2018/01/02/nginmesh-install/" data-toggle="tooltip" data-placement="top" title="Nginx开源Service Mesh组件Nginmesh安装指南">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2018/02/09/docker-without-sudo/" data-toggle="tooltip" data-placement="top" title="如何使用非root用户执行docker命令">Next
+                            Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+                
+
+                
+
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">                  
+                    
+                    
+                    
+                    
+                    
+
+		            
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+           
+             </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; BTC888 2024
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>
