@@ -1,102 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on BTC888</title>
-    <link>https://yux829.github.io/tags/</link>
-    <description>Recent content in Tags on BTC888</description>
+    <title>Tags on daily look </title>
+    <link>https://example.com/tags/</link>
+    <description>Recent content in Tags on daily look </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yux829.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2024; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Istio</title>
-      <link>https://yux829.github.io/tags/istio/</link>
-      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://yux829.github.io/tags/istio/</guid>
+      <title>featured</title>
+      <link>https://example.com/tags/featured/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/featured/</guid>
       <description></description>
     </item>
     <item>
-      <title>ubuntu</title>
-      <link>https://yux829.github.io/tags/ubuntu/</link>
-      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://yux829.github.io/tags/ubuntu/</guid>
+      <title>hugo</title>
+      <link>https://example.com/tags/hugo/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
-      <title>Microservice</title>
-      <link>https://yux829.github.io/tags/microservice/</link>
-      <pubDate>Wed, 23 May 2018 18:00:00 +0000</pubDate>
-      <guid>https://yux829.github.io/tags/microservice/</guid>
+      <title>themes</title>
+      <link>https://example.com/tags/themes/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/themes/</guid>
       <description></description>
     </item>
     <item>
-      <title>Security</title>
-      <link>https://yux829.github.io/tags/security/</link>
-      <pubDate>Wed, 23 May 2018 18:00:00 +0000</pubDate>
-      <guid>https://yux829.github.io/tags/security/</guid>
+      <title>development</title>
+      <link>https://example.com/tags/development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/development/</guid>
       <description></description>
     </item>
     <item>
-      <title>Kubernetes</title>
-      <link>https://yux829.github.io/tags/kubernetes/</link>
-      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://yux829.github.io/tags/kubernetes/</guid>
+      <title>go</title>
+      <link>https://example.com/tags/go/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/go/</guid>
       <description></description>
     </item>
     <item>
-      <title>Travel</title>
-      <link>https://yux829.github.io/tags/travel/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://yux829.github.io/tags/travel/</guid>
+      <title>golang</title>
+      <link>https://example.com/tags/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/golang/</guid>
       <description></description>
     </item>
     <item>
-      <title>Helm</title>
-      <link>https://yux829.github.io/tags/helm/</link>
-      <pubDate>Mon, 16 Apr 2018 15:00:00 +0000</pubDate>
-      <guid>https://yux829.github.io/tags/helm/</guid>
+      <title>templates</title>
+      <link>https://example.com/tags/templates/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/templates/</guid>
       <description></description>
     </item>
     <item>
-      <title>API Gateway</title>
-      <link>https://yux829.github.io/tags/api-gateway/</link>
-      <pubDate>Wed, 11 Apr 2018 09:32:00 +0000</pubDate>
-      <guid>https://yux829.github.io/tags/api-gateway/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>service Mesh</title>
-      <link>https://yux829.github.io/tags/service-mesh/</link>
-      <pubDate>Wed, 11 Apr 2018 09:32:00 +0000</pubDate>
-      <guid>https://yux829.github.io/tags/service-mesh/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Docker</title>
-      <link>https://yux829.github.io/tags/docker/</link>
-      <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
-      <guid>https://yux829.github.io/tags/docker/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tips</title>
-      <link>https://yux829.github.io/tags/tips/</link>
-      <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
-      <guid>https://yux829.github.io/tags/tips/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vim</title>
-      <link>https://yux829.github.io/tags/vim/</link>
-      <pubDate>Fri, 09 Feb 2018 11:00:00 +0000</pubDate>
-      <guid>https://yux829.github.io/tags/vim/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>nginmesh</title>
-      <link>https://yux829.github.io/tags/nginmesh/</link>
-      <pubDate>Tue, 02 Jan 2018 12:00:00 +0000</pubDate>
-      <guid>https://yux829.github.io/tags/nginmesh/</guid>
+      <title>jekyll</title>
+      <link>https://example.com/tags/jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/jekyll/</guid>
       <description></description>
     </item>
   </channel>
