@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Story on 区块链日报</title>
+    <link>https://yux829.github.io/categories/story/</link>
+    <description>Recent content in Story on 区块链日报</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright 2024  all rights reserved.</copyright>
+    <lastBuildDate>Sun, 14 Jan 2024 02:01:58 +0530</lastBuildDate>
+    <atom:link href="https://yux829.github.io/categories/story/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20240114</title>
+      <link>https://yux829.github.io/posts/20240114/</link>
+      <pubDate>Sun, 14 Jan 2024 02:01:58 +0530</pubDate>
+      <guid>https://yux829.github.io/posts/20240114/</guid>
+      <description>Hello 111 222 ddd </description>
+    </item>
+  </channel>
+</rss>

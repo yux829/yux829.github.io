@@ -1,0 +1,29 @@
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>区块链日报</title>
+    <link>https://yux829.github.io/</link>
+    <description>Recent content on 区块链日报</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright 2024  all rights reserved.</copyright>
+    <lastBuildDate>Sun, 14 Jan 2024 02:01:58 +0530</lastBuildDate>
+    
+        <atom:link href="https://yux829.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>开始写博客</title>
+        <link>https://yux829.github.io/posts/20240114/</link>
+        <pubDate>Sun, 14 Jan 2024 02:01:58 +0530</pubDate>
+        
+        <guid>https://yux829.github.io/posts/20240114/</guid>
+        <description>区块链日报 https://yux829.github.io/posts/20240114/ -&lt;h1 id=&#34;开始写博客&#34;&gt;开始写博客&lt;/h1&gt;
+&lt;p&gt;我写,故我在!&lt;/p&gt;
+- https://yux829.github.io/posts/20240114/ - Copyright 2024  all rights reserved.</description>
+        </item>
+    
+    
+  </channel>
+</rss> 
